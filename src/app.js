@@ -5,7 +5,7 @@ import routes from "./routes";
 class App {
   constructor() {
     this.server = express();
-    
+
     this.database();
     this.middleware();
     this.routes();
@@ -18,7 +18,7 @@ class App {
   database() {
     mongoose.connect(
       "mongodb+srv://eriksonsouza:Erik1994@cluster0.pisiubs.mongodb.net/?retryWrites=true&w=majority",
-      { useNewUrlParser: true }
+      { useNewUrlParser: true, useUnifiedTopology: true }
     );
   }
 
