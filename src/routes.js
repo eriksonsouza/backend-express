@@ -7,4 +7,7 @@ const routes = new Router();
 routes.post("/users", UserController.create);
 routes.post("/session", SessionController.create);
 
+//middleware
+routes.get("/users", UserController.index);
+
 export default routes;

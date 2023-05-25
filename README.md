@@ -1,30 +1,30 @@
 
-#### Instalando express
+#### Instalar express
 ```
 npm install express
 ```
 
-#### Instalando nodemon
+#### Instalar nodemon
 ```
 npm install --save-dev nodemon
 ```
 
-#### Instalando mongoose
+#### Instalar mongoose
 ```
 npm install mongoose --save
 ```
 
-#### Instalando nodemon
+#### Instalar sucrase
 ```
 npm install --save-dev sucrase
 ```
 
-#### Instalando bcrypt
+#### Instalar bcrypt
 ```
 npm i bcrypt
 ```
 
-#### Instalando jsonwebtoken
+#### Instalar jsonwebtoken
 ```
 npm install jsonwebtoken
 ```
